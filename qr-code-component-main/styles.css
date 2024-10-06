@@ -49,3 +49,10 @@ body {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 500) {
+    .container {
+        width: 240px;
+        padding: 0.8rem;
+    }
+}
